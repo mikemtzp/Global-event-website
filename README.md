@@ -44,6 +44,12 @@ Give a ⭐️ if you like this project!
 ## 🥇 Acknowledgments
 
 - This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
+- Icons:
+  - Whiteboard icons created by [Good Ware](https://www.flaticon.com/free-icons/whiteboard)
+  - Handshake icons created by [Uniconlabs](https://www.flaticon.com/free-icons/handshake)
+  - Speaker icons created by [Pixel perfect](https://www.flaticon.com/free-icons/speaker)
+  - Meeting icons created by [Becris](https://www.flaticon.com/free-icons/meeting)
+  - Global network icons created by [Freepik](https://www.flaticon.com/free-icons/global-network)
 
 ## 📝 License
 

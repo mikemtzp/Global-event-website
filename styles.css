@@ -25,19 +25,18 @@ body {
   line-height: 1.2rem;
 }
 
+.clickable {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 .intro-sec {
   background-image: url(./img/background/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-
   padding: 1rem 0.8rem;
 }
-
-/* img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-} */
 
 .hamburger {
   margin-left: 0.5rem;
@@ -77,6 +76,7 @@ body {
   margin: 1.2rem 0 1rem 0;
   padding: 1rem;
   border: 4px solid #fff;
+  font-size: 0.8rem;
 }
 
 .date {
@@ -94,22 +94,146 @@ body {
   opacity: 0.8;
 }
 
-
-
-
-
-.main-program {
-  background-image: repeating-linear-gradient(90deg, #2e3436 0, #2e3436 4px, transparent 0, transparent 50%),
-  repeating-linear-gradient(180deg, #2e3436 0, #2e3436 4px, transparent 0, transparent 50%),
-  repeating-linear-gradient(135deg, #1c1c30 0, #1c1c30 3px, transparent 0, transparent 53%),
-  repeating-linear-gradient(45deg, #1c1c30 0, #1c1c30 3px, transparent 0, transparent 44%);
-  background-size: 22px 22px;
-  background-color: #2e3436;
+.program-sec {
+  background-image: repeating-linear-gradient(90deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
+  repeating-linear-gradient(180deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
+  repeating-linear-gradient(135deg, #24272e 0, #24272e 3px, transparent 0, transparent 53%),
+  repeating-linear-gradient(45deg, #24272e 0, #24272e 3px, transparent 0, transparent 44%);
+  background-size: 25px 25px;
+  background-color: #272a31;
+  padding: 2rem 0.8rem 2.5rem 0.8rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.social-i {
-  height: 15px;
+.centered-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-title {
+  color: #fff;
+  font-weight: 500;
+}
+
+.orange-line {
+  background-color: var(--font-color);
+  height: 1.5px;
+  width: 2.5rem;
+  margin-top: 0.8rem;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.act-box {
+  background-color: rgba(255, 255, 255, 0.074);
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.act-img {
+  width: 3rem;
+  filter: brightness(0) invert(1);
+}
+
+.act-title {
+  color: var(--font-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.act-text {
+  color: #fff;
+  font-size: 0.8rem;
+
+}
+
+.join-btn {
+  background-color: var(--font-color);
+  width: fit-content;
+  align-self: center;
+  padding: 1.8rem 2rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.writers-sec {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0.8rem 2.5rem 0.8rem;
+
+}
+
+.writers-title {
+  height: 100px;
+}
+
+.black-title {
+  font-weight: 600;
+}
+
+.writer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.writer-img {
+  width: 100%;
+  justify-items: center;
+}
+
+.writer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.5rem;
+  width: fit-content;
+  padding-left: 0.8rem;
+}
+
+.writer-title {
+  font-size: 1.3rem;
+}
+
+.orange-italic-text {
+  color: var(--font-color);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.gray-line {
+  background-color: var(--main-color);
+  display: block;
+  height: 1px;
+  width: 1.5rem;
+  opacity: 0.3;
+}
+
+.writer-description {
+  font-size: 0.7rem;
 }
 
 
+@media screen {
 
+  .social-i {
+    height: 15px;
+  }
+
+}
+
+  
