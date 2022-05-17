@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(./fonts/Cocogoose\Pro-trial.ttf) format ('truetype');
+  font-weight: bolder;
+}
+
+.main-program {
+  background-image: repeating-linear-gradient(90deg, #2e3436 0, #2e3436 4px, transparent 0, transparent 50%),
+  repeating-linear-gradient(180deg, #2e3436 0, #2e3436 4px, transparent 0, transparent 50%),
+  repeating-linear-gradient(135deg, #1c1c30 0, #1c1c30 3px, transparent 0, transparent 53%),
+  repeating-linear-gradient(45deg, #1c1c30 0, #1c1c30 3px, transparent 0, transparent 44%);
+  background-size: 22px 22px;
+  background-color: #2e3436;
+}
+
+.social-i {
+  height: 15px;
+}
+
+
+
