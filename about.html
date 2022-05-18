@@ -14,8 +14,6 @@
 
 <body>
 
-  <div id="about-page"></div>
-
   <header>
     <div class="options-container desktop-centered">
       <ul class="options">
@@ -29,16 +27,34 @@
 
     <div class="desktop-menu-container desktop-centered">
       <ul class="desktop-menu">
-        <li><a href="#home-page"><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></a></li>
-        <li><a href="#about-page">About</a></li>
-        <li><a href="#program">Program</a></li>
-        <li><a href="#speakers">Writers</a></li>
-        <li><a href="#logo">Logo</a></li>
-        <li><a href="#past-events">Past Events</a></li>
+        <li><a href="index.html"><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#program">Program</a></li>
+        <li><a href="index.html#speakers">Writers</a></li>
+        <li><a href="about.html#logo">Logo</a></li>
+        <li><a href="about.html#past-events">Past Events</a></li>
         <li class="gna">GNA Campaign</li>
       </ul>
     </div>
   </header>
+
+  <ul class="mobile-menu">
+    <li class="close-icon"><img src="./img/background/close.png" alt="close menu" class="icon-menu"></li>
+    <li><a href="index.html" class="icon-menu">Home</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#program" class="icon-menu">Program</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#speakers" class="icon-menu">Writers</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html" class="icon-menu">About</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html#logo" class="icon-menu">Logo</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html#past-events" class="icon-menu">Past Events</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#partner" class="icon-menu">Partners</a></li>
+    <span class="orange-menu-line"></span>
+  </ul>
 
   <section class="about-intro-sec flex">
 
@@ -103,7 +119,7 @@
   </section>
 
   <section class="mobile-partners-sec flex" id="partner">
-    <h2 class="white-title">Partner</h2>
+    <h2 class="white-title">Partners</h2>
     <span class="orange-line"></span>
 
     <div class="partner-container">
@@ -122,5 +138,6 @@
     </div>
   </footer>
   
+  <script src="main.js"></script>
 </body>
 </html>
