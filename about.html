@@ -11,56 +11,89 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
   <title>®Global Nonfiction Apex 2022</title>
 </head>
+
 <body>
+  <header>
+    <div class="options-container desktop-centered">
+      <ul class="options">
+        <li><img class="social-i" src="./img/icons/fb.png" alt="Visit facebook profile"></li>
+        <li><img class="social-i" src="./img/icons/tw.png" alt="Visit twitter profile"></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </div>
+
+    <div class="desktop-menu-container desktop-centered">
+      <ul class="desktop-menu">
+        <li><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></li>
+        <li class="sidepadding"><a href="">About</a></li>
+        <li class="sidepadding"><a href="">Program</a></li>
+        <li class="sidepadding"><a href="">Join</a></li>
+        <li class="sidepadding"><a href="">Sponsor</a></li>
+        <li class="sidepadding"><a href="">News</a></li>
+        <li class="gna">GNA Campaign</li>
+      </ul>
+    </div>
+  </header>
+
   <section class="about-intro-sec flex">
-    <header>
-      <nav class="menu">
-        <div class="hamburger">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div>
 
-      </nav>
-    </header>
+    <nav class="menu">
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
 
-    <p class="greeting greeting-about">"Hello! Knowledge lovers!"</p>
-    <h1 class="about-title">GLOBAL NONFICTION APEX 2022</h1>
-    <p class="about-introtext">The meeting point for the world's top nonfiction writers/speakers with human-knowledge passionates from over 50 countries is residing in March, in México.</p>
+    <div class="about-intro-container flex">
+      <h1 class="about-title">GLOBAL NONFICTION APEX 2022</h1>
+      <span class="orange-line"></span>
+      <p class="about-introtext">The meeting point for the world's top nonfiction writers/speakers with human-knowledge passionates from over 50 countries is residing in March, in México.</br>The Global Nonfiction Apex brings together a community of nonfiction passionates from different backgrounds in different countries every year.</br> As with every year, we hope to be the place where important nonfiction writers share their new ideas about their books and the genre itself as well as the place for readers to find new inspiration in the stories told within the books.</br> If you are a nonfiction follower or advocate - starting writer, keen reader, small publisher, book critic, or just someone who wants to learn and spend enrichment time - we hope you find motivation with us. </p>
 
-    <p class="about-contact">Feel free to contact us through email for any questions you may have about ®Global Nonfiction Apex 2022!</p>
-    <p class="mail">contactus@globalnonfiction.com</p>
+      <p class="about-contact">Feel free to contact us through email for any questions you may have about ®Global Nonfiction Apex 2022!</p>
+      <p class="mail">contactus@globalnonfiction.com</p>
+    </div>
+
   </section>
 
   <section class="about-logo-sec flex">
-    <h2>Global Nonfiction<br> Apex 2022 Logo</h2>
-    <span class="orange-line"></span>
-    <p class="about-logo-text">Our logo was decided through the logo contest holded from 6.November to 7.December.</p>
 
-    <img class="logo" src="./img/background/logo-color.png" alt="Global Nonfiction Apex 2022 Logo" class="logo">
+    <div class="about-logo-container flex">
+      <h2>Global Nonfiction Apex 2022 Logo</h2>
+      <span class="orange-line"></span>
+      <p class="about-logo-text">Our logo was decided through the logo contest holded from 6.November to 7.December.</p>
 
+      <img class="logo" src="./img/background/logo-color.png" alt="Global Nonfiction Apex 2022 Logo" class="logo">
+    </div>
   </section>
 
   <span class="gray-line"></span>
 
   <section class="past-events-sec flex">
-    <h2>See the past Global Nonfiction Apexs</h2>
-    <span class="orange-line"></span>
-    <p class="about-pasttext">Take a look at the last two Global Nonfiction Apexs which took place in Santiago de Chile and in Toronto.</p>
 
-    <div class="img-container">
-      <img class="past-img" src="./img/background/2018event.png" alt="">
-      <div class="img-text">
-        <h3>2018</h3>
-        <p class="img-place">Global Nonfiction Apex in Santiago de Chile</p>
-      </div>
-    </div>
+    <div class="past-events-container flex">
+      <h2>See the past Global Nonfiction Apexs</h2>
+      <span class="orange-line"></span>
+      <p class="about-pasttext">Take a look at the last two Global Nonfiction Apexs which took place in Santiago de Chile and in Toronto.</p>
 
-    <div class="img-container">
-      <img class="past-img" src="./img/background/2019event.png" alt="">
-      <div class="img-text">
-        <h3>2019</h3>
-        <p class="img-place">Global Nonfiction Apex in Toronto</p>
+      <div class="img-events-flex">
+        <div class="img-container">
+          <img class="past-img" src="./img/background/2018event.png" alt="">
+          <div class="img-text">
+            <h3>2018</h3>
+            <p class="img-place">Global Nonfiction Apex in Santiago de Chile</p>
+          </div>
+        </div>
+
+        <div class="img-container">
+          <img class="past-img" src="./img/background/2019event.png" alt="">
+          <div class="img-text">
+            <h3>2019</h3>
+            <p class="img-place">Global Nonfiction Apex in Toronto</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -79,8 +112,11 @@
   </section>
 
   <footer class="mobile-footer flex">
-    <img class="logo-footer" src="./img/background/logo-black.png" alt="">
-    <p class="mobile-footer-text">2022 Global Nonfiction Apex México.<br>Some Rights Reserved.</p>
+    <div class="footer-container">
+      <img class="logo-footer" src="./img/background/logo-black.png" alt="">
+      <p class="mobile-footer-text">®Global Nonfiction Apex México 2022.<br>Some Rights Reserved.</p>
+      <p class="desktop-footer-text">®Global Nonfiction Apex México 2022. Some Rights Reserved.<br><br>2008-2022 Global Nonfiction Apex, LLC. Nonfiction Apex® is a registered trademark of Nonfiction Apex, LLC. All Rights Reserved. product name, logo, brands, and other trademarks featured or referred to within Nonfiction Apex are the property of their respective trademark holder. This Site may be compensated through third-party advertisers.</p>
+    </div>
   </footer>
   
 </body>

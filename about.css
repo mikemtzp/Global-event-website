@@ -41,14 +41,15 @@ body {
 
 .about-intro-sec {
   text-align: center;
-  padding: 1rem 0.8rem 2rem;
-  background-image: url(./img/background/mobile_intro_bg.png);
+  padding: 1rem 1.5rem 2rem;
+  background-image: url(./img/background/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f7f7f7;
 }
 
-header {
-  align-self: flex-start;
+.menu {
+    align-self: flex-start;
 }
 
 .greeting-about {
@@ -77,13 +78,18 @@ header {
 
 .about-logo-sec {
   text-align: center;
-  padding: 2.5rem 0.8rem;
+  padding: 2.5rem 1.5rem;
   line-height: 1.8rem;
+}
+
+h2 {
+  width: 50%;
 }
 
 .about-logo-text {
   margin: 1rem 0 1.5rem 0;
   line-height: 1.2rem;
+  padding: 0 3rem;
 }
 
 .logo {
@@ -100,18 +106,19 @@ header {
 
 .past-events-sec {
   text-align: center;
-  padding: 2.5rem 0.8rem;
+  padding: 2.5rem;
 }
 
 .about-pasttext {
   margin: 1rem 0 2rem 0;
+  padding: 0 0.5rem;
 }
 
 .img-container {
   position: relative;
   text-align: center;
   color: #fff;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .past-img {
@@ -135,7 +142,7 @@ header {
 
 .mobile-partners-sec {
   text-align: center;
-  padding: 1.5rem 0.8rem;
+  padding: 2.5rem 1.5rem;
   background-color: var(--main-color);
 }
 
@@ -161,20 +168,118 @@ header {
 .picador {
   justify-self: center;
   grid-area: picador;
+  width: 6rem;
 }
 
 .mobile-footer {
   flex-direction: row;
   padding: 1.5rem 0.8rem;
   justify-content: center;
-  gap: 1rem;
+}
+
+.footer-container{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .logo-footer {
-  width: 8rem;
+  max-width: 10rem;
 }
 
 .mobile-footer-text {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   line-height: 0.9rem;
+}
+
+.desktop-footer-text{
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .about-intro-sec {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 0;
+  }
+
+  .about-intro-container{
+    width: 65%;
+    padding: 4rem 0 3rem;
+  }
+
+  .about-title{
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-contact{
+    margin-top: 2rem;
+  }
+
+  .about-logo-sec{
+    padding: 0;
+  }
+
+  .about-logo-container{
+    width: 65%;
+    padding: 2.5rem 0
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .about-logo-text{
+    margin-bottom: 2rem;
+  }
+
+  .logo{
+    width: 25rem;
+    padding: 1.5rem 4rem
+  }
+
+  .past-events-sec{
+    padding: 0;
+  }
+
+  .past-events-container{
+    width: 65%;
+    margin: 2.5rem 0 4rem;
+  }
+
+  .img-events-flex{
+    display: flex;
+    gap: 1.5rem
+  }
+
+  .img-container{
+    width: 50%;
+  }
+
+  .mobile-partners-sec{
+    display: none;
+  }
+
+  .mobile-footer{
+    background-color: var(--main-color);
+    padding: 2rem 0;
+    color: #fff;
+  }
+
+  .footer-container{
+    display: flex;
+    width: 65%;
+    gap: 2rem;
+  }
+
+  .logo-footer{
+    filter: brightness(0) invert(1);
+    width: 10rem;
+  }
+
 }
