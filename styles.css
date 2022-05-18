@@ -34,10 +34,10 @@ body {
 /* Home Page */
 
 .intro-sec {
+  padding: 1rem 0.8rem 3rem;
   background-image: url(./img/background/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1rem 0.8rem 3rem;
 }
 
 .hamburger {
