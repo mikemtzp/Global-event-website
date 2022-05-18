@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url(fonts/Cocogoose-Pro-trial.ttf) format ('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #272a31;
+  --font-color: #ec5242;
+  --secondary-color: #d3d3d3;
+  --main-font: Lato, sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.clickable {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* About Page */
+
+.about-intro-sec {
+  text-align: center;
+  padding: 1rem 0.8rem 2rem;
+  background-image: url(./img/background/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  align-self: flex-start;
+}
+
+.greeting-about {
+  margin-bottom: 1rem;
+}
+
+.about-title {
+  color: var(--font-color);
+}
+
+.about-introtext {
+  margin: 2.5rem 0 1.2rem 0;
+  padding: 1rem 0.8rem;
+  background-color: #fff;
+  border: 1.5px solid rgba(195, 195, 195, 0.3);
+  font-size: 0.8rem;
+}
+
+.about-contact {
+  opacity: 0.9;
+}
+
+.mail {
+  font-weight: 900;
+}
+
+.about-logo-sec {
+  text-align: center;
+  padding: 2.5rem 0.8rem;
+  line-height: 1.8rem;
+}
+
+.about-logo-text {
+  margin: 1rem 0 1.5rem 0;
+  line-height: 1.2rem;
+}
+
+.logo {
+  width: 100%;
+  border: 1.5px solid rgba(195, 195, 195, 0.3);
+  padding: 1rem 2rem;
+}
+
+.gray-line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(195, 195, 195, 0.8)
+}
+
+.past-events-sec {
+  text-align: center;
+  padding: 2.5rem 0.8rem;
+}
+
+.about-pasttext {
+  margin: 1rem 0 2rem 0;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+
+.past-img {
+  width: 100%;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 0 1.2rem;
+}
+
+.img-place {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.mobile-partners-sec {
+  text-align: center;
+  padding: 1.5rem 0.8rem;
+  background-color: var(--main-color);
+}
+
+.partner-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 1rem 2rem;
+  grid-template-areas: 
+  ". . ."
+  "picador picador picador";
+  margin-top: 1rem;
+}
+
+.penguin-img {
+  width: 3rem;
+}
+
+.grid-item {
+  opacity: 0.5;
+}
+
+.picador {
+  justify-self: center;
+  grid-area: picador;
+}
+
+.mobile-footer {
+  flex-direction: row;
+  padding: 1.5rem 0.8rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo-footer {
+  width: 8rem;
+}
+
+.mobile-footer-text {
+  font-size: 0.5rem;
+  line-height: 0.9rem;
+}
