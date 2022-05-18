@@ -69,11 +69,14 @@ body {
 }
 
 .about-contact {
+  background-color: #f7f7f7;
   opacity: 0.9;
 }
 
 .mail {
   font-weight: 900;
+  opacity: 0.9;
+  background-color: #f7f7f7;
 }
 
 .about-logo-sec {

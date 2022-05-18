@@ -31,14 +31,7 @@ body {
   outline: none;
 }
 
-/* Home Page */
-
-.intro-sec {
-  padding: 1rem 0.8rem 3rem;
-  background-image: url(./img/background/mobile_intro_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/* Menu */
 
 .hamburger {
   margin-left: 0.5rem;
@@ -54,6 +47,62 @@ body {
 
 .line:not(:last-child) {
   margin-bottom: 3px;
+}
+
+.mobile-menu {
+  display: grid;
+  grid-template-rows: 3rem 3rem 5px 3rem 5px 3rem 5px 3rem 5px 3rem 5px 3rem 5px 3rem 5px;
+  align-items: flex-end;
+  list-style: none;
+  position: fixed;
+  transform: translateY(-100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: var(--main-color);
+}
+
+.mobile-menu a {
+  text-decoration: none;
+}
+
+.close-icon {
+  display: none;
+  justify-self: end;
+  align-self: end;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+
+.icon-menu {
+  color: #fff;
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.orange-menu-line {
+  background-color: var(--font-color);
+  height: 1.5px;
+  width: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.open-menu {
+  transform: translateY(0%);
+  transition: transform 0.3s;
+}
+
+/* Home Page */
+
+.intro-sec {
+  padding: 1rem 0.8rem 3rem;
+  background-image: url(./img/background/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .greeting {
@@ -97,7 +146,8 @@ h1 {
 
 .venue {
   color: var(--main-color);
-  opacity: 0.8;
+  background-color: #f7f7f7;
+  opacity: 0.9;
 }
 
 .program-sec {
@@ -248,7 +298,7 @@ header,
     justify-content: center;
   }
 
-  .hamburger {
+  .menu {
     display: none;
   }
 
@@ -301,7 +351,7 @@ header,
 
   .desktop-header-logo {
     height: 3rem;
-    margin-right: 15rem;
+    margin-right: 8rem;
   }
 
   .gna {
