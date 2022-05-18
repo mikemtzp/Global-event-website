@@ -12,25 +12,28 @@
 </head>
 
 <body>
+
+  <div id="home-page"></div>
+
   <header>
     <div class="options-container desktop-centered">
       <ul class="options">
-        <li><img class="social-i" src="./img/icons/fb.png" alt="Visit facebook profile"></li>
-        <li><img class="social-i" src="./img/icons/tw.png" alt="Visit twitter profile"></li>
-        <li>English</li>
-        <li>My Page</li>
-        <li>Logout</li>
+        <li><img class="social-i clickable" src="./img/icons/fb.png" alt="Visit facebook profile"></li>
+        <li><img class="social-i clickable" src="./img/icons/tw.png" alt="Visit twitter profile"></li>
+        <li class="clickable">English</li>
+        <li class="clickable">My Page</li>
+        <li class="clickable">Logout</li>
       </ul>
     </div>
 
     <div class="desktop-menu-container desktop-centered">
       <ul class="desktop-menu">
-        <li><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></li>
-        <li class="sidepadding">About</li>
-        <li class="sidepadding">Program</li>
-        <li class="sidepadding">Join</li>
-        <li class="sidepadding">Sponsor</li>
-        <li class="sidepadding">News</li>
+        <li><a href="#home-page"><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></a></li>
+        <li><a href="#about-page">About</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#partner">Partners</a></li>
+        <li><a href="#">News</a></li>
         <li class="gna">GNA Campaign</li>
       </ul>
     </div>
@@ -55,7 +58,7 @@
     </div>
   </section>
 
-  <section class="program-sec">
+  <section class="program-sec" id="program">
     
     <div class="centered-title">
       <h2 class="white-title" >Main Program</h2>
@@ -103,7 +106,7 @@
 
   </section>
 
-  <section class="writers-sec">
+  <section class="writers-sec" id="speakers">
 
     <div class="centered-title">
       <h2 class="black-title">Featured Writers</h2>

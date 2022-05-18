@@ -295,6 +295,10 @@ header,
     justify-content: space-between;
   }
 
+  .desktop-menu a {
+    text-decoration: none;
+  }
+
   .desktop-header-logo {
     height: 3rem;
     margin-right: 15rem;
@@ -305,6 +309,7 @@ header,
     border: 3px solid var(--font-color);
     margin-left: 1.5rem;
     padding: 0.2rem 0.4rem;
+    cursor: pointer;
   }
 
   .intro-sec {
@@ -471,7 +476,5 @@ header,
     font-size: 0.5rem;
     line-height: 0.6rem;
   }
-
 }
-
   

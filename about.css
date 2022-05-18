@@ -135,9 +135,13 @@ h2 {
   padding: 0 1.2rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 .img-place {
   margin-top: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .mobile-partners-sec {
@@ -281,5 +285,4 @@ h2 {
     filter: brightness(0) invert(1);
     width: 10rem;
   }
-
 }
