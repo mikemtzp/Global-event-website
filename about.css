@@ -41,10 +41,11 @@ body {
 
 .about-intro-sec {
   text-align: center;
-  padding: 1rem 0.8rem 2rem;
+  padding: 1rem 1.5rem 2rem;
   background-image: url(./img/background/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f7f7f7;
 }
 
 .menu {
@@ -77,13 +78,18 @@ body {
 
 .about-logo-sec {
   text-align: center;
-  padding: 2.5rem 0.8rem;
+  padding: 2.5rem 1.5rem;
   line-height: 1.8rem;
+}
+
+h2 {
+  width: 50%;
 }
 
 .about-logo-text {
   margin: 1rem 0 1.5rem 0;
   line-height: 1.2rem;
+  padding: 0 3rem;
 }
 
 .logo {
@@ -100,18 +106,19 @@ body {
 
 .past-events-sec {
   text-align: center;
-  padding: 2.5rem 0.8rem;
+  padding: 2.5rem;
 }
 
 .about-pasttext {
   margin: 1rem 0 2rem 0;
+  padding: 0 0.5rem;
 }
 
 .img-container {
   position: relative;
   text-align: center;
   color: #fff;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .past-img {
@@ -135,7 +142,7 @@ body {
 
 .mobile-partners-sec {
   text-align: center;
-  padding: 1.5rem 0.8rem;
+  padding: 2.5rem 1.5rem;
   background-color: var(--main-color);
 }
 
@@ -161,22 +168,34 @@ body {
 .picador {
   justify-self: center;
   grid-area: picador;
+  width: 6rem;
 }
 
 .mobile-footer {
   flex-direction: row;
   padding: 1.5rem 0.8rem;
   justify-content: center;
-  gap: 1rem;
+}
+
+.footer-container{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
 }
 
 .logo-footer {
-  width: 8rem;
+  max-width: 10rem;
 }
 
 .mobile-footer-text {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   line-height: 0.9rem;
+}
+
+.desktop-footer-text{
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -240,7 +259,6 @@ body {
 
   .img-container{
     width: 50%;
-  
   }
 
   .mobile-partners-sec{
@@ -257,7 +275,6 @@ body {
     display: flex;
     width: 65%;
     gap: 2rem;
-
   }
 
   .logo-footer{
