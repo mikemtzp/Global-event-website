@@ -234,7 +234,9 @@ h1 {
   font-size: 0.7rem;
 }
 
-header {
+header,
+.desktop-partners-sec,
+.desktop-footer {
   display: none;
 }
 
@@ -389,7 +391,85 @@ header {
   }
 
   .writers-sec {
+    width: 100%;
     padding: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .writers-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .allwriters {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+
+  .desktop-partners-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0rem;
+  background-color: var(--main-color);
+  }
+
+  .partner-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.8rem;
+  }
+
+  .partner-img {
+    width: 5rem;
+    opacity: 0.5;
+  }
+
+  .white-partner-img {
+    filter: brightness(0) invert(1);
+  }
+
+  .picador-img {
+    width: fit-content;
+    height: 3rem;
+    filter: brightness(0) invert(1);
+    opacity: 0.5;
+  }
+
+  .desktop-footer{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem 0;
+  justify-content: center;
+  gap: 1rem;
+  }
+
+  .footers-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .logo-footer {
+    width: 10rem;
+  }
+  
+  .desktop-footer-text {
+    font-size: 0.5rem;
+    line-height: 0.6rem;
   }
 
 }
