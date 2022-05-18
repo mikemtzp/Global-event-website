@@ -13,29 +13,48 @@
 </head>
 
 <body>
+
   <header>
     <div class="options-container desktop-centered">
       <ul class="options">
-        <li><img class="social-i" src="./img/icons/fb.png" alt="Visit facebook profile"></li>
-        <li><img class="social-i" src="./img/icons/tw.png" alt="Visit twitter profile"></li>
-        <li>English</li>
-        <li>My Page</li>
-        <li>Logout</li>
+        <li><img class="social-i clickable" src="./img/icons/fb.png" alt="Visit facebook profile"></li>
+        <li><img class="social-i clickable" src="./img/icons/tw.png" alt="Visit twitter profile"></li>
+        <li class="clickable">English</li>
+        <li class="clickable">My Page</li>
+        <li class="clickable">Logout</li>
       </ul>
     </div>
 
     <div class="desktop-menu-container desktop-centered">
       <ul class="desktop-menu">
-        <li><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></li>
-        <li class="sidepadding"><a href="">About</a></li>
-        <li class="sidepadding"><a href="">Program</a></li>
-        <li class="sidepadding"><a href="">Join</a></li>
-        <li class="sidepadding"><a href="">Sponsor</a></li>
-        <li class="sidepadding"><a href="">News</a></li>
+        <li><a href="index.html"><img class="desktop-header-logo" src="./img/background/logo-color.png" alt=""></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#program">Program</a></li>
+        <li><a href="index.html#speakers">Writers</a></li>
+        <li><a href="about.html#logo">Logo</a></li>
+        <li><a href="about.html#past-events">Past Events</a></li>
         <li class="gna">GNA Campaign</li>
       </ul>
     </div>
   </header>
+
+  <ul class="mobile-menu">
+    <li class="close-icon"><img src="./img/background/close.png" alt="close menu" class="icon-menu"></li>
+    <li><a href="index.html" class="icon-menu">Home</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#program" class="icon-menu">Program</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#speakers" class="icon-menu">Writers</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html" class="icon-menu">About</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html#logo" class="icon-menu">Logo</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="about.html#past-events" class="icon-menu">Past Events</a></li>
+    <span class="orange-menu-line"></span>
+    <li><a href="index.html#partner" class="icon-menu">Partners</a></li>
+    <span class="orange-menu-line"></span>
+  </ul>
 
   <section class="about-intro-sec flex">
 
@@ -58,7 +77,7 @@
 
   </section>
 
-  <section class="about-logo-sec flex">
+  <section class="about-logo-sec flex" id="logo">
 
     <div class="about-logo-container flex">
       <h2>Global Nonfiction Apex 2022 Logo</h2>
@@ -71,7 +90,7 @@
 
   <span class="gray-line"></span>
 
-  <section class="past-events-sec flex">
+  <section class="past-events-sec flex" id="past-events">
 
     <div class="past-events-container flex">
       <h2>See the past Global Nonfiction Apexs</h2>
@@ -79,7 +98,7 @@
       <p class="about-pasttext">Take a look at the last two Global Nonfiction Apexs which took place in Santiago de Chile and in Toronto.</p>
 
       <div class="img-events-flex">
-        <div class="img-container">
+        <div class="img-container clickable">
           <img class="past-img" src="./img/background/2018event.png" alt="">
           <div class="img-text">
             <h3>2018</h3>
@@ -87,7 +106,7 @@
           </div>
         </div>
 
-        <div class="img-container">
+        <div class="img-container clickable">
           <img class="past-img" src="./img/background/2019event.png" alt="">
           <div class="img-text">
             <h3>2019</h3>
@@ -99,8 +118,8 @@
 
   </section>
 
-  <section class="mobile-partners-sec flex">
-    <h2 class="white-title">Partner</h2>
+  <section class="mobile-partners-sec flex" id="partner">
+    <h2 class="white-title">Partners</h2>
     <span class="orange-line"></span>
 
     <div class="partner-container">
@@ -119,5 +138,6 @@
     </div>
   </footer>
   
+  <script src="main.js"></script>
 </body>
 </html>
