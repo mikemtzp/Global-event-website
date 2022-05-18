@@ -42,13 +42,13 @@ body {
 .about-intro-sec {
   text-align: center;
   padding: 1rem 0.8rem 2rem;
-  background-image: url(./img/background/mobile_intro_bg.png);
+  background-image: url(./img/background/about_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-header {
-  align-self: flex-start;
+.menu {
+    align-self: flex-start;
 }
 
 .greeting-about {
@@ -177,4 +177,92 @@ header {
 .mobile-footer-text {
   font-size: 0.5rem;
   line-height: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .about-intro-sec {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 0;
+  }
+
+  .about-intro-container{
+    width: 65%;
+    padding: 4rem 0 3rem;
+  }
+
+  .about-title{
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-contact{
+    margin-top: 2rem;
+  }
+
+  .about-logo-sec{
+    padding: 0;
+  }
+
+  .about-logo-container{
+    width: 65%;
+    padding: 2.5rem 0
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .about-logo-text{
+    margin-bottom: 2rem;
+  }
+
+  .logo{
+    width: 25rem;
+    padding: 1.5rem 4rem
+  }
+
+  .past-events-sec{
+    padding: 0;
+  }
+
+  .past-events-container{
+    width: 65%;
+    margin: 2.5rem 0 4rem;
+  }
+
+  .img-events-flex{
+    display: flex;
+    gap: 1.5rem
+  }
+
+  .img-container{
+    width: 50%;
+  
+  }
+
+  .mobile-partners-sec{
+    display: none;
+  }
+
+  .mobile-footer{
+    background-color: var(--main-color);
+    padding: 2rem 0;
+    color: #fff;
+  }
+
+  .footer-container{
+    display: flex;
+    width: 65%;
+    gap: 2rem;
+
+  }
+
+  .logo-footer{
+    filter: brightness(0) invert(1);
+    width: 10rem;
+  }
+
 }
