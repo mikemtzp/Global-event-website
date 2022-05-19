@@ -186,12 +186,12 @@ h3 {
 }
 
 .logo-footer {
-  max-width: 10rem;
+  width: 7rem;
 }
 
 .mobile-footer-text {
-  font-size: 0.7rem;
-  line-height: 0.9rem;
+  font-size: 0.6rem;
+  line-height: 0.7rem;
 }
 
 .desktop-footer-text {
@@ -272,12 +272,20 @@ h3 {
 
   .footer-container {
     display: flex;
-    width: 65%;
+    width: 70%;
     gap: 2rem;
   }
 
   .logo-footer {
     filter: brightness(0) invert(1);
-    width: 10rem;
+    width: 12rem;
+  }
+
+  .desktop-footer-text {
+    display: block;
+  }
+
+  .mobile-footer-text {
+    display: none;
   }
 }
