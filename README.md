@@ -7,11 +7,11 @@ In this project, I developed a nonfiction writers and readers event website that
 - Linters: Lighthouse, Webhint, Stylelint & ESlint
 
 ## 💻 Live demo
-- [Live Demo Link]()
+- [Live Demo Link](https://mikemtzp.github.io/Global-event-website/)
 
 ## 📹 Video documentation
 
-- [Description of the project]()
+- [Description of the project](https://www.loom.com/share/f05d087fd7ca4788bad3a75ec90221c9)
 
 ## 🧮 Setup
 
@@ -35,13 +35,22 @@ $ open index.html file
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/mikemtzp/my-portfolio/issues).
+Feel free to check the [issues page](https://github.com/mikemtzp/Global-event-website/issues).
 
 ## ⭐️ Show your support
 
 Give a ⭐️ if you like this project!
 
 ## 🥇 Acknowledgments
+
+- This project was built based on the original template design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+- Icons used for this project:
+  - Whiteboard icons created by [Good Ware](https://www.flaticon.com/free-icons/whiteboard)
+  - Handshake icons created by [Uniconlabs](https://www.flaticon.com/free-icons/handshake)
+  - Speaker icons created by [Pixel perfect](https://www.flaticon.com/free-icons/speaker)
+  - Meeting icons created by [Becris](https://www.flaticon.com/free-icons/meeting)
+  - Global network icons created by [Freepik](https://www.flaticon.com/free-icons/global-network)
 
 - This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
 

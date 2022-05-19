@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #272a31;
+  --font-color: #ec5242;
+  --secondary-color: #d3d3d3;
+  --main-font: lato, sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.clickable {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* About Page */
+
+.about-intro-sec {
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+  background-image: url(./img/background/about_bg.png);
+  background-repeat: no-repeat;
+  background-size: content; /* stylelint-disable-line */
+  background-color: #f7f7f7;
+}
+
+.menu {
+  align-self: flex-start;
+}
+
+.greeting-about {
+  margin-bottom: 1rem;
+}
+
+.about-title {
+  color: var(--font-color);
+}
+
+.about-introtext {
+  margin: 2.5rem 0 1.2rem 0;
+  padding: 1rem 0.8rem;
+  background-color: #fff;
+  border: 1.5px solid rgba(195, 195, 195, 0.3);
+  font-size: 0.8rem;
+}
+
+.about-contact {
+  background-color: #f7f7f7;
+  opacity: 0.9;
+}
+
+.mail {
+  font-weight: 900;
+  opacity: 0.9;
+  background-color: #f7f7f7;
+}
+
+.about-logo-sec {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  line-height: 1.8rem;
+}
+
+h2 {
+  width: 70%;
+}
+
+.about-logo-text {
+  margin: 1rem 0 1.5rem 0;
+  line-height: 1.2rem;
+  padding: 0 3rem;
+}
+
+.logo {
+  width: 100%;
+  border: 1.5px solid rgba(195, 195, 195, 0.3);
+  padding: 1rem 2rem;
+}
+
+.gray-line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(195, 195, 195, 0.8);
+}
+
+.past-events-sec {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.about-pasttext {
+  margin: 1rem 0 2rem 0;
+  padding: 0 0.5rem;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.past-img {
+  width: 100%;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 0 1.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.img-place {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.mobile-partners-sec {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background-color: var(--main-color);
+}
+
+.partner-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 1rem 2rem;
+  grid-template-areas:
+    ". . ."
+    "picador picador picador";
+  margin-top: 1rem;
+}
+
+.penguin-img {
+  width: 3rem;
+}
+
+.grid-item {
+  opacity: 0.5;
+}
+
+.picador {
+  justify-self: center;
+  grid-area: picador;
+  width: 6rem;
+}
+
+.mobile-footer {
+  flex-direction: row;
+  padding: 1.5rem 0.8rem;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.logo-footer {
+  width: 7rem;
+}
+
+.mobile-footer-text {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+}
+
+.desktop-footer-text {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-intro-sec {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 0;
+  }
+
+  .about-intro-container {
+    width: 65%;
+    padding: 4rem 0 3rem;
+  }
+
+  .about-title {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-contact {
+    margin-top: 2rem;
+  }
+
+  .about-logo-sec {
+    padding: 0;
+  }
+
+  .about-logo-container {
+    width: 65%;
+    padding: 2.5rem 0;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .about-logo-text {
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    width: 25rem;
+    padding: 1.5rem 4rem;
+  }
+
+  .past-events-sec {
+    padding: 0;
+  }
+
+  .past-events-container {
+    width: 65%;
+    margin: 2.5rem 0 4rem;
+  }
+
+  .img-events-flex {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .img-container {
+    width: 50%;
+  }
+
+  .mobile-partners-sec {
+    display: none;
+  }
+
+  .mobile-footer {
+    background-color: var(--main-color);
+    padding: 2rem 0;
+    color: #fff;
+  }
+
+  .footer-container {
+    display: flex;
+    width: 70%;
+    gap: 2rem;
+  }
+
+  .logo-footer {
+    filter: brightness(0) invert(1);
+    width: 12rem;
+  }
+
+  .desktop-footer-text {
+    display: block;
+  }
+
+  .mobile-footer-text {
+    display: none;
+  }
+}
