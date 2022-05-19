@@ -1,6 +1,6 @@
 @font-face {
   font-family: "cocogoose";
-  src: url(fonts/Cocogoose-Pro-trial.ttf) format ('truetype');
+  src: url(fonts/Cocogoose-Pro-trial.ttf) format ('truetype'); /* stylelint-disable-line *//* stylelint-disable-line */
   font-weight: bolder;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
   --main-color: #272a31;
   --font-color: #ec5242;
   --secondary-color: #d3d3d3;
-  --main-font: Lato, sans-serif;
+  --main-font: lato, sans-serif;
 }
 
 body {
@@ -121,7 +121,7 @@ h1 {
 .h1-title {
   background-image: url(./img/background/2019event.png);
   background-size: cover;
-  background-clip: text;
+  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -148,13 +148,15 @@ h1 {
   color: var(--main-color);
   background-color: #f7f7f7;
   opacity: 0.9;
+  width: fit-content;
 }
 
 .program-sec {
-  background-image: repeating-linear-gradient(90deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
-  repeating-linear-gradient(180deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
-  repeating-linear-gradient(135deg, #24272e 0, #24272e 3px, transparent 0, transparent 53%),
-  repeating-linear-gradient(45deg, #24272e 0, #24272e 3px, transparent 0, transparent 44%);
+  background-image:
+    repeating-linear-gradient(90deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
+    repeating-linear-gradient(180deg, #272a31 0, #272a31 4px, transparent 0, transparent 50%),
+    repeating-linear-gradient(135deg, #24272e 0, #24272e 3px, transparent 0, transparent 53%),
+    repeating-linear-gradient(45deg, #24272e 0, #24272e 3px, transparent 0, transparent 44%);
   background-size: 25px 25px;
   background-color: #272a31;
   padding: 2rem 0.8rem 2.5rem 0.8rem;
@@ -229,7 +231,6 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem 2.5rem;
-
 }
 
 .writers-title {
@@ -291,7 +292,6 @@ header,
 }
 
 @media screen and (min-width: 768px) {
-
   .desktop-centered {
     width: 100%;
     display: flex;
@@ -347,6 +347,7 @@ header,
 
   .desktop-menu a {
     text-decoration: none;
+    color: var(--main-color);
   }
 
   .desktop-header-logo {
@@ -369,12 +370,17 @@ header,
     justify-content: center;
     align-items: center;
     padding: 0;
-    height: 460px;
-  } 
+    height: 550px;
+  }
+
+  .intro-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+  }
 
   .desktop-intro {
-    width: 100%;
-    margin: 3rem 19rem 2rem 6rem;
+    width: 75%;
   }
 
   .greeting {
@@ -383,11 +389,12 @@ header,
   }
 
   .h1-title {
-    font-size: 3.2rem;
-    line-height: 3rem;
+    font-size: 3.8rem;
+    line-height: 3.5rem;
   }
 
   .intro {
+    font-size: 1rem;
     max-width: 80%;
   }
 
@@ -415,7 +422,7 @@ header,
     grid-template-columns: auto;
     justify-items: center;
     row-gap: 0.2rem;
-    padding: 0.7rem;
+    padding: 1rem;
     width: auto;
     text-align: center;
     height: auto;
@@ -439,10 +446,10 @@ header,
   }
 
   .see-program {
-  color: #fff;
-  align-self: center;
-  text-decoration: underline;
-  padding-bottom: 1rem;
+    color: #fff;
+    align-self: center;
+    text-decoration: underline;
+    padding-bottom: 1rem;
   }
 
   .writers-sec {
@@ -450,7 +457,6 @@ header,
     padding: 2.5rem 0;
     display: flex;
     justify-content: center;
-
   }
 
   .writers-container {
@@ -461,7 +467,7 @@ header,
 
   .allwriters {
     width: 80%;
-    display: grid;   
+    display: grid;
     gap: 0.8rem;
     grid-template-columns: 50% 50%;
   }
@@ -486,18 +492,18 @@ header,
   }
 
   .writer-description {
-    font-size: 0.7rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
   }
 
   .desktop-partners-sec {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  padding: 2rem 0rem;
-  background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--main-color);
   }
 
   .partner-container {
@@ -525,16 +531,16 @@ header,
     opacity: 0.5;
   }
 
-  .desktop-footer{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 2rem 0;
-  justify-content: center;
-  gap: 1rem;
+  .desktop-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem 0;
+    justify-content: center;
+    gap: 1rem;
   }
 
-  .footers-container{
+  .footers-container {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -545,10 +551,9 @@ header,
   .logo-footer {
     width: 10rem;
   }
-  
+
   .desktop-footer-text {
-    font-size: 0.5rem;
-    line-height: 0.6rem;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
   }
 }
-  
