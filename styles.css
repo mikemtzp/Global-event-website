@@ -225,18 +225,14 @@ h1 {
   padding: 2rem 1rem 2.5rem;
 }
 
-.writers-title {
-  height: 100px;
-}
-
 .black-title {
   font-weight: 600;
 }
 
 .writer {
   display: grid;
-  grid-template-columns: 30% 70%;
-  margin-top: 2.5rem;
+  grid-template-columns: 35% 65%;
+  margin-top: 1.8rem;
   align-items: center;
   justify-content: center;
 }
@@ -250,19 +246,21 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 0.5rem;
+  row-gap: 0.4rem;
   width: fit-content;
   padding-left: 0.8rem;
 }
 
 .writer-title {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .orange-italic-text {
   color: var(--font-color);
   font-style: italic;
   font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
 }
 
 .gray-line {
@@ -274,7 +272,8 @@ h1 {
 }
 
 .writer-description {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
 }
 
 header,
@@ -477,13 +476,18 @@ header,
 
   .writer-card {
     padding: 1rem;
+    row-gap: 0.8rem;
+  }
+
+  .writer-title {
+    font-size: 1.5rem;
   }
 
   .orange-italic-text {
     color: var(--font-color);
     font-style: italic;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 0.8rem;
   }
 
