@@ -34,10 +34,10 @@ body {
 
 .about-intro-sec {
   text-align: center;
-  padding: 1rem 1.5rem 2rem;
+  padding: 1rem 1rem 2rem;
   background-image: url(./img/background/about_bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: content; /* stylelint-disable-line */
   background-color: #f7f7f7;
 }
 
