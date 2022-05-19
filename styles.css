@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "cocogoose";
-  src: url(fonts/Cocogoose-Pro-trial.ttf) format ('truetype'); /* stylelint-disable-line *//* stylelint-disable-line */
-  font-weight: bolder;
-  font-style: normal;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -121,7 +114,6 @@ h1 {
 .h1-title {
   background-image: url(./img/background/2019event.png);
   background-size: cover;
-  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
   color: transparent;
 }
