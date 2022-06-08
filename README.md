@@ -1,5 +1,5 @@
 # Global event website
-In this project, I developed a nonfiction writers and readers event website that you can access to know all the important information about the event including the partners and speakers involved. This site is constituted from a home and about page. Please read the README file for further important information about the design.
+> This project simulates a global event website related to nonfiction writing where you can access to read all important information. It is divided into a home and about page. Built with HTML and CSS.
 
 ## 🛠️ Built With
 
