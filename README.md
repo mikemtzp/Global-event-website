@@ -6,12 +6,9 @@ In this project, I developed a nonfiction writers and readers event website that
 - HTML, CSS & Javascript
 - Linters: Lighthouse, Webhint, Stylelint & ESlint
 
-## 💻 Live demo
-- [Live Demo Link](https://mikemtzp.github.io/Global-event-website/)
+## 💻 [Live demo](https://mikemtzp.github.io/Global-event-website/)
 
-## 📹 Video documentation
-
-- [Description of the project](https://www.loom.com/share/f05d087fd7ca4788bad3a75ec90221c9)
+## 📹 [Video documentation](https://www.loom.com/share/f05d087fd7ca4788bad3a75ec90221c9)
 
 ## 🧮 Setup
 
@@ -19,7 +16,7 @@ Follow these steps on your console to properly clone this repository on your des
 
 ```
 $ cd desktop
-$ git clone https://github.com/mikemtzp/Conference-website.git
+$ git clone https://github.com/mikemtzp/Global-event-website.git
 $ cd my-portfolio
 $ open index.html file
 ```
